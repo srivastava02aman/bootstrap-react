@@ -1,5 +1,3 @@
-<h1>loading issue</h1>
-
 
 # Getting Started with Create React App
 
