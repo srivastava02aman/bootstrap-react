@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
 
 import {
   Routes,
@@ -14,7 +15,7 @@ function App() {
     <Header/>
   
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" element={<Home />} />
       <Route path="About" element={<About />} />
       <Route path="Contact" element={<Contact />} />
     </Routes>
